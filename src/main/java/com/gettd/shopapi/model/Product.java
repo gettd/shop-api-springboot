@@ -24,6 +24,8 @@ public class Product {
     private int stock;
 }
 
+//Product.java (Model/Entity)
+//A Java class that represents a database table. The @Entity annotation is what makes Hibernate automatically create the products table in MySQL.
 /*
 Product.java with @Entity
         ↓
@@ -39,4 +41,5 @@ Hibernate translated it into SQL:
   )
         ↓
 Table now exists in MySQL
+
  */

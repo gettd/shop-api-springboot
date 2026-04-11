@@ -28,6 +28,11 @@ public interface ProductRepository extends JpaRepository<Product, Long>{ //works
     //Spring generates the query purely from the method name. This is called 'derived queries'
 }
 
+
+//ProductRepository.java
+//An interface that gives you database operations without writing a single line of SQL.
+//You just extend JpaRepository and Spring handles everything.
+
 /*
 default:
 Method              What it does

@@ -63,6 +63,11 @@ public class ProductController {
 
 // The HTTP status codes returned from ResponseEntity is important because they tell the caller(frontend) what happened
 
+//ProductController.java
+//The front door of your API. It receives HTTP requests from the outside world (Postman, Vue), calls the service,
+// and sends back JSON responses with the appropriate HTTP status code.
+
+
 /*
 Postman
   ↕ HTTP (JSON)

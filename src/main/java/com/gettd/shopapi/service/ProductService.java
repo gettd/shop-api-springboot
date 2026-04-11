@@ -49,6 +49,11 @@ public class ProductService {
     }
 }
 
+//ProductService.java
+//Where your business logic lives. It's the brain of the operation, it decides how to handle each operation.
+//It calls the repository to talk to the database and will later contain rules like "you can't set a negative price" or "only admins can delete products."
+//Controller calls Service → Service applies logic → Service calls Repository
+
 /*
 Postman sends GET /api/products
         ↓
